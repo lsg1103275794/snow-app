@@ -21,7 +21,7 @@ import { setUpdateStatus } from "./updateStatus";
 // 可通过环境变量 SNOW_ZH_NOTES_URL 覆盖（用于测试自建服务端）。
 const ZH_NOTES_URL =
   process.env.SNOW_ZH_NOTES_URL ??
-  "https://github.com/MayDay-wpf/snow-app/releases/latest/download/latest-zh.json";
+  "https://github.com/lsg1103275794/snow-app/releases/latest/download/latest-zh.json";
 
 // 请求超时（毫秒）
 const FETCH_TIMEOUT_MS = 10 * 1000;

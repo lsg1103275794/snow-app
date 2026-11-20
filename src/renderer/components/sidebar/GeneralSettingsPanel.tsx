@@ -118,7 +118,7 @@ const INITIAL_UPDATE_STATUS: UpdateStatus = {
   releaseNotesZhTw: null,
 };
 
-const GITHUB_REPOSITORY_URL = "https://github.com/MayDay-wpf/snow-app";
+const GITHUB_REPOSITORY_URL = "https://github.com/lsg1103275794/snow-app";
 
 // 手动检查后的提示类型
 type CheckHint = "up-to-date" | "error" | null;

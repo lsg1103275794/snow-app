@@ -157,7 +157,7 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "MayDay-wpf",
+      "owner": "lsg1103275794",
       "repo": "snow-app"
     },
     "mac": {

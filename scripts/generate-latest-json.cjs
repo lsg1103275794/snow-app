@@ -27,7 +27,7 @@ const { existsSync, readFileSync, writeFileSync } = require("node:fs");
 const { join } = require("node:path");
 const { extractReleaseNotes } = require("./extract-release-notes.cjs");
 
-const OWNER = "MayDay-wpf";
+const OWNER = "lsg1103275794";
 const REPO = "snow-app";
 
 const tag = process.argv[2];

@@ -31,7 +31,7 @@ const UPDATE_CHANNEL = "updater:status-changed";
 // 可通过环境变量 SNOW_UPDATE_MANIFEST_URL 覆盖（用于测试自建服务端）。
 const MANIFEST_URL =
   process.env.SNOW_UPDATE_MANIFEST_URL ??
-  "https://github.com/MayDay-wpf/snow-app/releases/latest/download/latest-mac.json";
+  "https://github.com/lsg1103275794/snow-app/releases/latest/download/latest-mac.json";
 
 // 运行时定时检查间隔（毫秒），默认 1 小时
 const RUNTIME_CHECK_INTERVAL_MS = 60 * 60 * 1000;
