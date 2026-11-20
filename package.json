@@ -28,6 +28,7 @@
     "postinstall": "node scripts/patch-spectre.cjs && node scripts/ensure-conpty-dll.cjs && node scripts/fix-pty-spawn-helper.cjs",
     "check": "npm run check:ts && cargo check --manifest-path native/Cargo.toml",
     "check:docs": "node scripts/check-docs.cjs",
+    "check:p0": "node --test tests/p0/approval.test.mjs && cargo test --manifest-path native/Cargo.toml --locked -p snow-storage-services --test p0_upgrade --test p0_memory",
     "check:ts": "tsc --noEmit",
     "check:packaged-runtime": "node scripts/check-packaged-runtime-deps.mjs",
     "preview": "electron-vite build && node scripts/preview.cjs"
